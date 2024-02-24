@@ -1,0 +1,10 @@
+<launch>
+    <!-- Kinova Robotic Arm Control Node -->
+    <node name="gyro_controlled_kinova_node" pkg="kortex_examples" type="teleop.py" output="screen">
+        <!-- Set any necessary parameters -->
+        <param name="robot_name" value="my_gen3" />
+        <!-- Add other parameters if needed -->
+    </node>
+
+    <!-- Add other nodes here if necessary, like for gyroscope data -->
+</launch>
